@@ -1,7 +1,7 @@
-import StatCard from "../components/dashboard/StatCard";
-import MyHouses from "../components/dashboard/MyHouses";
+import StatCard from "../components/Dashboard/StatCard";
+import MyHouses from "../components/Dashboard/MyHouses";
 
-import ReviewsSection from "../components/dashboard/ReviewsSection"; 
+import ReviewsSection from "../components/Dashboard/ReviewsSection"; 
 import { FiHome, FiCheckCircle, FiDollarSign } from "react-icons/fi";
 
 const DashboardPages = () => {
