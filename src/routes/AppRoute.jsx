@@ -17,8 +17,8 @@ import Contact from "../pages/Contact";
 
 
 import MyBookings from "../components/Dashboard/MyBookings"; 
-import MyHouses from "../components/dashboard/MyHouses";
-import Reviews from "../components/dashboard/ReviewsSection";
+import MyHouses from "../components/Dashboard/MyHouses";
+import Reviews from "../components/Dashboard/ReviewsSection";
 
 import PaymentSuccess from "../pages/PaymentSuccess";
 
