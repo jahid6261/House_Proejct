@@ -16,7 +16,7 @@ import DashboardPage from "../pages/DashboardPage";
 import Contact from "../pages/Contact";
 
 
-import MyBookings from "../components/dashboard/MyBookings"; 
+import MyBookings from "../components/Dashboard/MyBookings"; 
 import MyHouses from "../components/dashboard/MyHouses";
 import Reviews from "../components/dashboard/ReviewsSection";
 
