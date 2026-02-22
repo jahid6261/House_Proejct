@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const authApiClient = axios.create({
-  baseURL: "https://house-rent-backend.vercel.app/api/v1",
+  baseURL: "https://house-rent-project-one.vercel.app/api/v1",
   headers: {
     "Content-Type": "application/json",
   },
