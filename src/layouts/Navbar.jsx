@@ -46,12 +46,7 @@ const Navbar = () => {
           <>
           
 
-            <NavLink 
-              to="/dashboard/reviews" 
-              className={({ isActive }) => isActive ? "text-primary font-semibold" : ""}
-            >
-              <FiStar className="inline mr-1" /> My Reviews
-            </NavLink>
+          
 
            
           </>
@@ -100,9 +95,7 @@ const Navbar = () => {
             <>
               
 
-              <NavLink to="/dashboard/reviews" onClick={() => setMenuOpen(false)}>
-                My Reviews
-              </NavLink>
+           
 
             
 

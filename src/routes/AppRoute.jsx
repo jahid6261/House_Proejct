@@ -18,7 +18,7 @@ import Contact from "../pages/Contact";
 
 import MyBookings from "../components/Dashboard/MyBookings"; 
 import MyHouses from "../components/Dashboard/MyHouses";
-import Reviews from "../components/Dashboard/ReviewsSection";
+
 
 import PaymentSuccess from "../pages/PaymentSuccess";
 
@@ -58,8 +58,7 @@ const AppRoute = () => {
         {/* /dashboard/my-houses */}
         <Route path="my-houses" element={<MyHouses />} />
 
-        {/* /dashboard/reviews */}
-        <Route path="reviews" element={<Reviews />} />
+      
       </Route>
     </Routes>
   );

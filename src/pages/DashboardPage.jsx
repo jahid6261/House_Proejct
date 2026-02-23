@@ -1,7 +1,7 @@
 import StatCard from "../components/Dashboard/StatCard";
 import MyHouses from "../components/Dashboard/MyHouses";
 
-import ReviewsSection from "../components/Dashboard/ReviewsSection"; 
+; 
 import { FiHome, FiCheckCircle, FiDollarSign } from "react-icons/fi";
 
 const DashboardPages = () => {
@@ -21,7 +21,7 @@ const DashboardPages = () => {
         </div>
         <div className="lg:col-span-1">
           
-          <ReviewsSection />
+         
         </div>
       </div>
     </div>

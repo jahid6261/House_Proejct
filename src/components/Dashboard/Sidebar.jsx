@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   const menuItems = [
-    { to: "/dashboard", icon: FiHome, label: "Overview" },
-    { to: "/dashboard/my-bookings", icon: FiPackage, label: "My Bookings" },
-    { to: "/dashboard/my-houses", icon: FiHome, label: "My Houses" },
-    { to: "/dashboard/reviews", icon: FiStar, label: "Reviews" },
-    { to: "/dashboard/profile", icon: FiUser, label: "Profile" },
+    { to: "/Dashboard", icon: FiHome, label: "Overview" },
+    { to: "/Dashboard/my-bookings", icon: FiPackage, label: "My Bookings" },
+    { to: "/Dashboard/my-houses", icon: FiHome, label: "My Houses" },
+    
+    { to: "/Dashboard/profile", icon: FiUser, label: "Profile" },
   ];
 
   return (
